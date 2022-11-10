@@ -1,4 +1,14 @@
 {
   "name": "common",
-  "main": "index.js"
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "source": "src/index.ts",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "scripts": {
+    "compile": "tsc --build",
+    "clean": "rm -rf build",
+    "clean:all": "pnpm run clean && rm -rf node_modules"
+  }
 }

@@ -10,5 +10,8 @@
     "compile": "tsc --build",
     "clean": "rm -rf build",
     "clean:all": "pnpm run clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.3"
   }
 }

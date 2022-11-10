@@ -6418,6 +6418,8 @@ __metadata:
 "common@workspace:*, common@workspace:packages/common":
   version: 0.0.0-use.local
   resolution: "common@workspace:packages/common"
+  dependencies:
+    typescript: ^4.8.3
   languageName: unknown
   linkType: soft
 
